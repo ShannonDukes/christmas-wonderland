@@ -1,9 +1,9 @@
 :root {
-  --primary: #232F3E;
+  --primary: #228B22;
   --secondary: #F3A847;
   --tertiary: #B12704;
-  --light: #fafafa;
-  --dark: #272f32;
+  --light: #dfdddd;
+  --dark: #006400;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -19,6 +19,8 @@ body {
 }
 
 body {
+  background-image: url("https://images.unsplash.com/photo-1511184150666-9bb7d41a88f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80");
+  background-size: cover;
   margin: 0;
   padding: 0;
   font-family: 'Karla', sans-serif;
