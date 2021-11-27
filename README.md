@@ -17,11 +17,10 @@ AS A person looking for something holiday themed, I WANT to be able to find some
 ## GitHub
 
 https://github.com/dmtuominen22/christmas-wonderland
+https://github.com/ShannonDukes/christmas-wonderland
 
 ## Website 
-Deployed on Heroku
-will put URL once deployed on Heroku
-this will be
+Deployed on Heroku - unable to deploy to Heroku due to dependency issues. 
 
 Image of App
 ![image](https://user-images.githubusercontent.com/84994258/143349528-e1e3adb4-fbd3-4adb-8212-90bef9e44d00.png)
@@ -42,6 +41,6 @@ Image of App
  NPM Installed
  
 ## Contributions
-  Shannon Dukes mrs.knit.wit.dukes@gmail.com
+  Shannon Dukes (mrs.knit.wit.dukes@gmail.com)
 
   Denise Tuominen (dmtuominen@gmail.com)
