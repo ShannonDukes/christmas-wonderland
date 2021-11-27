@@ -52,13 +52,13 @@ db.once('open', async () => {
       quantity: 300
     },
     {
-      name: 'Onesies',
+      name: 'Coffee',
       description:
-        'Onesie pajamas for everyone; Mom, Dad and the kids!',
-      image: 'onesies2.jpg',
-      category: categories[2]._id,
-      price: 40.00,
-      quantity: 200
+        'Want something to warm you up? How about a lovely cup of coffee!',
+      image: 'coffee.jpg',
+      category: categories[0]._id,
+      price: 8.00,
+      quantity: 400
     },
     {
       name: 'Ugly Sweaters',
@@ -79,24 +79,6 @@ db.once('open', async () => {
       quantity: 295
     },
     {
-      name: 'Craft Kit',
-      description:
-        'Best way to keep the little ones busy during the holidays ',
-      image: 'craftKit.jpg',
-      category: categories[1]._id,
-      price: 10.00,
-      quantity: 400
-    },
-    {
-      name: 'Coffee',
-      description:
-        'Want something to warm you up? How about a lovely cup of coffee!',
-      image: 'coffee.jpg',
-      category: categories[0]._id,
-      price: 8.00,
-      quantity: 400
-    },
-    {
       name: 'Lap Blankets',
       description:
         'Grab one of these warm and toasty blanket to keep you snuggly on those chilly winter nights!',
@@ -104,6 +86,24 @@ db.once('open', async () => {
       category: categories[1]._id,
       price: 40.00,
       quantity: 265
+    },
+    {
+      name: 'Onesies',
+      description:
+        'Onesie pajamas for everyone; Mom, Dad and the kids!',
+      image: 'onesies2.jpg',
+      category: categories[2]._id,
+      price: 40.00,
+      quantity: 200
+    },
+    {
+      name: 'Craft Kit',
+      description:
+        'Best way to keep the little ones busy during the holidays ',
+      image: 'craftKit.jpg',
+      category: categories[1]._id,
+      price: 10.00,
+      quantity: 400
     }
   ]);
 
